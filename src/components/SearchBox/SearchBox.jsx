@@ -20,7 +20,7 @@ const SearchBox = () => {
         type="text"
         name="search"
         id={searchInputId}
-        value={searchName}
+        value={filterName}
         onChange={(e) => handleFilter(e.target.value)}
       />
     </div>
